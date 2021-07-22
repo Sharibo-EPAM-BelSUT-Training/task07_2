@@ -1,0 +1,48 @@
+I часть 7 задания
+
+1. Выбрать вариант из книги. (И.Н. Блинов, В.С. Романчик. Java. Методы программирования страница 449).
+2. Создать XML-документ.
+3. Написать (вручную  будет более полезно) xsd схему (сложные типы, перечисления и т.п.) для созданного в первом пункте XML-документа.
+4. Сгенерировать java классы по XSD-схеме
+5. Создать несколько объектов и преобразовать (marshal) их в  xml.
+6. Провести валидацию xml.
+
+
+II часть 7 задания
+
+см. архив с папками.
+нужно переименовать названия PointOfSale добавив префикс ADC_ всем, кроме ADC (т.е. всем дочерним)
+
+каждый каталог ..\[posCode] переименовать в ..\ADC_[posCode]
+каждый файл ..\[posCode]\PointOfSaleManageSvRQ_[posCode].xml в ..\ADC_[posCode]\PointOfSaleManageSvRQ_ADC_[posCode].xml
+
+внутри каждого файла PointOfSaleManageSvRQ_[posCode].xml
+поменять значения атрибутов
+    PointOfSaleCode
+    ParentPointOfSale
+    Description
+в соответствии с новыми значениями.
+
+
+Использовать любой XML-парсер. В DOM-анализаторе(парсере) это удобнее.
+Использовать классы библиотеки IO для работы с файлами и каталогами
+и еще можно воспользоваться полезным утилитным классом
+org.apache.commons.io.FileUtils
+в апачевской библиотеке
+org.apache.commons
+commons-io
+
+http://commons.apache.org/proper/commons-io/
+Utility classes - with static methods to perform common tasks
+
+В pom.xml будет следующая зависимость на эту библиотеку
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+    </dependencies>
+

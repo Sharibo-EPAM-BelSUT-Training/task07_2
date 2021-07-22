@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PointOfSaleManageSvRQ xmlns="urn:pos.rqrs.datalex.com" xmlns:common="urn:common.rqrs.datalex.com" ClientId="matrixtdp" MajorVersion="1" MinorVersion="0">
+	<PointOfSaleCreateRQ ExecutionOrder="1">
+		<CreatePointOfSale>
+			<PointOfSale ParentPointOfSale="ADC" PointOfSaleCode="LX" PointOfSaleVersion="0">
+				
+				
+				
+				<PointOfSaleDescription Description="LX.com" LanguageCode="en" Version="0"/>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</PointOfSale>
+		</CreatePointOfSale>
+	</PointOfSaleCreateRQ>
+</PointOfSaleManageSvRQ>

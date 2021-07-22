@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PointOfSaleManageSvRQ xmlns="urn:pos.rqrs.datalex.com" xmlns:attribute="urn:attribute.rqrs.datalex.com" xmlns:common="urn:common.rqrs.datalex.com" xmlns:root="urn:xsd.rqrs.xerxes.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" BusinessFlowStep="String" ClientId="matrixtdp" MajorVersion="1" MinorVersion="0" xsi:schemaLocation="urn:pos.rqrs.datalex.com d:\tdp\adc_ice2\tdp\00005707\src\schema\com\datalex\rqrs\pos\PointOfSaleManageSvRQ.xsd">
+    <PointOfSaleCreateRQ ExecutionOrder="1">
+        <CreatePointOfSale>
+            <PointOfSale ParentPointOfSale="SN_A-SIN_MKI-I" PointOfSaleCode="SN_A-SIN_MKI-I_NP" PointOfSaleVersion="0">
+                <PointOfSaleDescription Description="SN_A-SIN_MKI-I_NP" LanguageCode="en" Version="0"/>
+				
+            </PointOfSale>
+        </CreatePointOfSale>
+    </PointOfSaleCreateRQ>
+</PointOfSaleManageSvRQ>
